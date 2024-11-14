@@ -3,7 +3,7 @@
     padding: 0px;
 }
 header img{
-    width: 80px;
+    width: 120px;
     border-radius: 20px;
 }
 header{
@@ -41,6 +41,20 @@ header nav ul li{
 
 }
 
+footer p{
+    display: flex;
+    justify-content: center;
+    color: rgb(51, 51, 51);
+    background-color:rgb(183, 196, 177);
+    padding: 20px;
+    border-radius: 40px;
+
+    
+}
+footer{
+}
+
+
 
 /* -------------------------------------------GENERAL------------------------------------------- */
 
@@ -50,7 +64,7 @@ header nav ul li{
     flex-wrap: wrap;
 }
 .lista-recetas article img{
-    width: 200px;    
+    width: 230px;    
 }
 .lista-recetas article{
     display: flex;
@@ -58,7 +72,7 @@ header nav ul li{
     align-items: center;
     border: 6px solid rgb(183, 196, 177);
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 20px;
     background-color: rgb(244, 241, 222);
 }
@@ -73,3 +87,5 @@ header nav ul li{
 }
 
 /* ----------------------------------------------HOME------------------------------------------- */
+
+
