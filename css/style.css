@@ -85,7 +85,16 @@ footer{
     color: rgb(188, 75, 81);
 
 }
-
+.container-cm{
+    display: flex;
+    justify-content: center;
+}
+.container-cm .cargar-mas{
+    background-color: rgb(129, 99, 60);
+    color: rgb(250, 249, 246);
+    border-radius: 15px;
+    padding: 18px;
+}
 /* ----------------------------------------------HOME------------------------------------------- */
 
 
