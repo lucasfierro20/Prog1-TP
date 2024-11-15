@@ -8,24 +8,25 @@
 </head>
 <body>
     <form action="index.html" method="get">
-        <div>
-            <label for="">Email</label>
-            <input type="email" value="" name="email">
-        <div class="errorEmail"></div>
-        </div>
-        <div>
-            <label for="">Contrasena</label>
-            <input type="password" value="" name="password">
-        <div class="errorPassword"></div>
-        </div>
-        <div>
-            <label for="">no Tengo cuenta</label>
-            <button type="submit"><a href="./registro.html">Registrate</a></button>
-        </div>
-        <div class="enviar">
-            <button type="submit"><a href="./index.html">Ingresar</a></button>
-        </div>
-        
+        <section class="sectForm">
+            <div>
+                <label for="">Email</label>
+                <input type="email" value="" name="email" id="email">
+            <div class="errorEmail"></div>
+            </div>
+            <div>
+                <label for="">Contrasena</label>
+                <input type="password" value="" name="password" id="password">
+            <div class="errorPassword"></div>
+            </div>
+            <div>
+                <label for="">no tengo cuenta</label>
+                <button class="boton"  type="submit"><a href="./registro.html">Registrate</a></button>
+            </div>
+            <div class="enviar">
+                <button class="boton" type="submit">Ingresar</button>
+            </div>
+        </section>
     </form>
 
     <script src="./js/login.js"></script>

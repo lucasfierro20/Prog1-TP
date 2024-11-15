@@ -5,6 +5,10 @@ let password = document.querySelector('#password')
 let errorEmail = document.querySelector('.errorEmail')
 let errorPassword = document.querySelector('.errorPassword')
 
+console.log(formulario);
+console.log(email);
+
+
 formulario.addEventListener('submit', function(evento){
     evento.preventDefault()
     if(email.value == ''){
