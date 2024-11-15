@@ -1,15 +1,22 @@
-fetch('https://dummyjson.com/recipes/meal-type/snack')
+fetch('https://dummyjson.com/recipes/tags')
+
 .then (function(response){
     return response.json();
 })
 .then(function(data){
-    let lista= document.querySelector('.lista-recetas')
+    console.log(data.length)
+    let lista= document.querySelector('.categorias')
     let recetas = []
-    for(let i=0;i<data.recipes.length;i++){
-        recetas+=`<article><a class="link-detalle" href="./detalle.html?id=${data.recipes[i].id}">${data.recipes[i].name} <a><img src="${data.recipes[i].image}"alt=''><p>Nivel de dificultad:<strong> ${data.recipes[i].difficulty}</strong></p></article>`
+    for(let i=0;i<data.length;i++){
+        recetas+=`<article><a href="./results.html"><p class="cate-boton">${data[i]}</p></a></article>`
     }
     lista.innerHTML=recetas
     console.log()
+    let cateInside = document.querySelector('.cate-boton')
+    cateInside.addEventListener('click', function(){
+        
+    })
+            
 
 })
 .catch(function(error){
