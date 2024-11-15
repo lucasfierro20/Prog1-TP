@@ -9,14 +9,14 @@ fetch('https://dummyjson.com/recipes')
         recetas+=`<article><a class="link-detalle" href="./detalle.html?id=${data.recipes[i].id}">${data.recipes[i].name} <a><img src="${data.recipes[i].image}"alt=''><p>Nivel de dificultad:<strong> ${data.recipes[i].difficulty}</strong></p></article>`
     }
     lista.innerHTML=recetas
-    
+    for(let i=0;i>10;i++){
     let cargarMas = document.querySelector('.cargar-mas')
     cargarMas.addEventListener('click', function(){
-        for(let i=0;i<10;i++){
+        for(let i=0;i<data.recipes.length;i++){
             recetas+=`<article><a class="link-detalle" href="./detalle.html?id=${data.recipes[i].id}">${data.recipes[i].name} <a><img src="${data.recipes[i].image}"alt=''><p>Nivel de dificultad:<strong> ${data.recipes[i].difficulty}</strong></p></article>`
         }
         lista.innerHTML=recetas
-    })
+    })}
     
 
 })
