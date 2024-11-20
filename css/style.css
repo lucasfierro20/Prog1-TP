@@ -126,6 +126,15 @@ footer p{
     border-radius: 15px;
     padding: 18px;
 }
+
+
+.titulodetalle{
+display: flex;
+justify-content: center;
+color: rgb(188, 75, 81)
+}
+
+
 /* ----------------------------------------------HOME------------------------------------------- */
 
 .sectForm{

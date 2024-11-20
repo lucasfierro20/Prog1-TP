@@ -8,7 +8,7 @@ fetch('https://dummyjson.com/recipes/tags')
     let lista= document.querySelector('.categorias')
     let recetas = []
     for(let i=0;i<data.length;i++){
-        recetas+=`<article><a href="./results.html"><p class="cate-boton">${data[i]}</p></a></article>`
+        recetas+=`<article><a href="./detalle.html?tag=${data[i]}"><p class="cate-boton">${data[i]}</p></a></article>`
     }
     lista.innerHTML=recetas
     console.log()
