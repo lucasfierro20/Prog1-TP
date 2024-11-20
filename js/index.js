@@ -6,7 +6,7 @@ fetch('https://dummyjson.com/recipes')
     let lista= document.querySelector('.lista-recetas')
     let recetas = []
     for(let i=0;i<10;i++){
-        recetas+=`<article><a class="link-detalle" href="./detalle.html?id=${data.recipes[i].id}">${data.recipes[i].name} <a><img src="${data.recipes[i].image}"alt=''><p>Nivel de dificultad:<strong> ${data.recipes[i].difficulty}</strong></p></article>`
+        recetas+=`<article><a class="link-detalle" href="./detallerecetas.html?id=${data.recipes[i].id}">${data.recipes[i].name} <a><img src="${data.recipes[i].image}"alt=''><p>Nivel de dificultad:<strong> ${data.recipes[i].difficulty}</strong></p></article>`
     }
     lista.innerHTML=recetas
 
@@ -29,7 +29,7 @@ cargarMas.addEventListener('click', function(){
         let lista= document.querySelector('.lista-recetas')
         let recetas = []
         for(let i=0;i<data.recipes.length;i++){
-            recetas+=`<article><a class="link-detalle" href="./detalle.html?id=${data.recipes[i].id}">${data.recipes[i].name} <a><img src="${data.recipes[i].image}"alt=''><p>Nivel de dificultad:<strong> ${data.recipes[i].difficulty}</strong></p></article>`
+            recetas+=`<article><a class="link-detalle" href="./detallerecetas.html?id=${data.recipes[i].id}">${data.recipes[i].name} <a><img src="${data.recipes[i].image}"alt=''><p>Nivel de dificultad:<strong> ${data.recipes[i].difficulty}</strong></p></article>`
         }
         lista.innerHTML=recetas
     
