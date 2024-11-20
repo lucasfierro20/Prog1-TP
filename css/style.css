@@ -1,6 +1,9 @@
 *{
     background-color: rgb(248, 240, 229);
     padding: 0px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 header img{
     width: 120px;
@@ -159,4 +162,3 @@ footer p{
 }
 /* ----------------------------------------------LOGIN------------------------------------------- */
 
-    

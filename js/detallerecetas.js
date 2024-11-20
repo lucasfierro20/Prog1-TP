@@ -14,7 +14,7 @@ fetch(`https://dummyjson.com/recipes/${identificador}`)
     ingredientes.innerText += data.ingredients;
     let instrucciones = document.querySelector('#instrucciones');
     instrucciones.innerText += data.instructions;
-    let img = document.querySelector('img');
+    let img = document.querySelector('.img-rece');
     img.src = data.image;
     
     
