@@ -13,7 +13,7 @@ fetch(`https://dummyjson.com/recipes/search?q=${ans}`)
 
     let buscador = ''
     for(let i=0;i<data.recipes.length;i++){
-        buscador+=`<article><a class="link-detalle" href="./detalle.html?id=${data.recipes[i].id}">${data.recipes[i].name} <a><img src="${data.recipes[i].image}"alt=''><p>Nivel de dificultad:<strong> ${data.recipes[i].difficulty}</strong></p></article>`
+        buscador+=`<article><a class="link-detalle" href="./detallerecetas.html?id=${data.recipes[i].id}">${data.recipes[i].name} <a><img src="${data.recipes[i].image}"alt=''><p>Nivel de dificultad:<strong> ${data.recipes[i].difficulty}</strong></p></article>`
     }
     results.innerHTML=buscador
 })
