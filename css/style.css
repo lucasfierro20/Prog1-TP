@@ -60,13 +60,14 @@ footer p{
 
 
 .search{
-    width: 300px;
+    max-width: 900px;
     height: 40px;
     padding: 20px;
     background-color: rgb(250, 249, 246); 
     border-radius: 8px;
     display: flex;
     flex-direction: row;
+    align-items: center;
  }
  .search-input {
     width: 80%;
@@ -77,12 +78,19 @@ footer p{
     font-size: medium;
  }
  .search-button {
-    padding: 12px 25px;
+    padding: 15px 25px;
     background-color: rgb(224, 122, 95);
     border: none;
     margin-left: 1vh;
     border-radius: 4px;
     color: rgb(250, 249, 246);
+ }
+ .error-busqueda, .error{
+    background-color: rgb(250, 249, 246);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size:x-small;
+    color: red;
  }
 
 
@@ -181,4 +189,91 @@ color: rgb(188, 75, 81)
     color: black;
 }
 /* ----------------------------------------------LOGIN------------------------------------------- */
+.categorias-titulo{
+    display: flex;
+    justify-content: center;
+    color: rgb(96, 108, 56);
+}
+.categorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+}
 
+.categorias article{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.categorias article a{
+    text-decoration: none;
+    color: rgb(129, 99, 60);
+    
+    
+}
+.categorias article a p{
+    background-color: rgb(250, 249, 246);
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: 2px solid  rgb(183, 196, 177);
+}
+/* -----------------------------------------------CATEGORIAS--------------------------------------- */
+.titulodetalle{
+    color: rgb(96, 108, 56);
+}
+/* -----------------------------------------------DETALLE-------------------------------------- */
+.contenedor-derece{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.contenedor-derece li{
+    list-style: none;  
+    margin-left: 1vw;
+    margin-right: 1vw; 
+    background-color: rgb(250, 249, 246);
+    color:rgb(224, 122, 95) ;
+    border: 2px solid rgb(224, 122, 95);
+    border-radius: 5px;
+    padding: 5px;
+}
+.contenedor-derece .contenedor-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+
+}
+.contenedor-derece img{
+    width: 45vw;
+    border-radius: 20px;
+}
+.contenedor-ii{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    justify-content: space-around;  
+    flex-wrap: wrap;      
+}
+.contenedor-ii h2{
+    color: rgb(96, 108, 56);
+    background-color: rgb(242, 204, 143);
+    padding: 15px;
+    border: 3px solid rgb(96, 108, 56);
+    border-radius: 10px;
+}
+.contenedor-ii p{
+    color: rgb(129, 99, 60);
+    background-color: rgb(250, 249, 246);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+.nombre-receta{
+    color: rgb(96, 108, 56);
+}
