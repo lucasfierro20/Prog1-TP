@@ -136,38 +136,49 @@ color: rgb(188, 75, 81)
 
 
 /* ----------------------------------------------HOME------------------------------------------- */
-
-.sectForm{
+.logg{
     display: flex;
     justify-content: center;
-    justify-self: center;
     margin-top: 10%;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 40px;
-    padding: 10px;
-    background-color: rgb(183, 196, 177);
-    width: 20%;
+    background-color: #e6d8bc;
+    margin-bottom: none;
+}
+.formss{
+    display: flex;
+  flex-direction: column; 
+  align-items: center;
+  background-color: #e6d8bc;
+  gap: 15px; 
+  margin-top: 20px; 
 }
 
-.sectForm div{
-    margin: 10px;
-}
-
-.sectForm a{
-    text-decoration: none;
-    color: black;
-    border-radius: 10px;
-}
-
-.sectForm input{
-    color: black;
-    border-radius: 10px;
+.ody{
+    
+        margin: 50px auto; 
+        padding: 20px; 
+        width: 400px;
+        border: 3px solid black;
+        background-color: #e6d8bc; 
+        border-radius: 10px; 
+        text-align: center; 
     
 }
 
+
+.formss a{
+    text-decoration: none;
+    color: black;
+    background-color: #e6d8bc;
+    border-radius: none;
+    border: black 2px solid;
+}
+
+
 .boton{
     border: none;
+    background-color: #e6d8bc;
+    text-decoration: none;
+    color: black;
 }
 /* ----------------------------------------------LOGIN------------------------------------------- */
 
