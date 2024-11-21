@@ -229,6 +229,13 @@ color: rgb(188, 75, 81)
     color: rgb(96, 108, 56);
     border: rgb(96, 108, 56) 2px solid;
 }
+
+.errorEmail{
+    background-color:rgb(242, 204, 143) ;
+}
+.errorPassword{
+    background-color: rgb(242, 204, 143);
+}
 /* ----------------------------------------------LOGIN------------------------------------------- */
 .categorias-titulo{
     display: flex;

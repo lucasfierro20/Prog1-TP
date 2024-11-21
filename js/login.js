@@ -6,11 +6,11 @@ let boton = document.querySelector('.boton')
 
 formulario.addEventListener('submit', function(evento){
     evento.preventDefault()
-if(boton){
-    if (email.value == ''){
-    alert("por favor complete el campo email") 
-    }
-    if (password.value == ''){
-    alert("por favor complete el campo contraseña")
-    }
-}})
+        if (email.value == ''){
+            alert("por favor complete el campo email") 
+        } else if (password.value == ''){
+            alert("por favor complete el campo contraseña")
+        } else{
+            formulario.submit()
+        }
+})

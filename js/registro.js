@@ -17,5 +17,4 @@ formulario.addEventListener('submit', function(evento){
     }else {
         formulario.submit()
     }
-
 })
