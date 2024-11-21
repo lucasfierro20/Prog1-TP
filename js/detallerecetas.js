@@ -10,6 +10,8 @@ fetch(`https://dummyjson.com/recipes/${identificador}`)
 .then (function(data){
     let nombre = document.querySelector('h1')
     nombre.innerText = data.name;
+    let details = document.querySelector('.details')
+    details.innerHTML+= `<ul class="contenedor-ul"><li> Cook Time: ${data.cookTimeMinutes} mins</li><li>Servings: ${data.servings}</li><li>Rating: ${data.rating}</li><ul>`;
     let ingredientes = document.querySelector('#ingredientes');
     ingredientes.innerText += data.ingredients;
     let instrucciones = document.querySelector('#instrucciones');
