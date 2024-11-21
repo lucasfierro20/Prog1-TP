@@ -60,13 +60,14 @@ footer p{
 
 
 .search{
-    width: 300px;
+    max-width: 900px;
     height: 40px;
     padding: 20px;
     background-color: rgb(250, 249, 246); 
     border-radius: 8px;
     display: flex;
     flex-direction: row;
+    align-items: center;
  }
  .search-input {
     width: 80%;
@@ -77,12 +78,19 @@ footer p{
     font-size: medium;
  }
  .search-button {
-    padding: 12px 25px;
+    padding: 15px 25px;
     background-color: rgb(224, 122, 95);
     border: none;
     margin-left: 1vh;
     border-radius: 4px;
     color: rgb(250, 249, 246);
+ }
+ .error-busqueda, .error{
+    background-color: rgb(250, 249, 246);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size:x-small;
+    color: red;
  }
 
 
