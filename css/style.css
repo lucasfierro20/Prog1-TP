@@ -4,6 +4,7 @@
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
+    box-sizing: border-box;
 }
 header img{
     width: 120px;
@@ -144,20 +145,43 @@ color: rgb(188, 75, 81)
 
 
 /* ----------------------------------------------HOME------------------------------------------- */
+
 .logg{
     display: flex;
     justify-content: center;
+    color: rgb(96, 108, 56);
     margin-top: 10%;
-    background-color: #e6d8bc;
+    background-color: rgb(242, 204, 143);
     margin-bottom: none;
 }
 .formss{
     display: flex;
   flex-direction: column; 
   align-items: center;
-  background-color: #e6d8bc;
+  background-color: rgb(242, 204, 143);
   gap: 15px; 
   margin-top: 20px; 
+}
+
+.cajon{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(96, 108, 56);
+    border-radius: 5px;
+    background-color: rgb(242, 204, 143);
+    color: rgb(96, 108, 56);
+    box-shadow: none;
+
+}
+.formss div {
+    margin: 0; 
+    background-color: rgb(242, 204, 143);
+    padding: 0;
+    width: 100%;
+}
+.boton:hover {
+    background-color: #d4c2a3;
+    color: black;
 }
 
 .ody{
@@ -165,28 +189,45 @@ color: rgb(188, 75, 81)
         margin: 50px auto; 
         padding: 20px; 
         width: 400px;
-        border: 3px solid black;
-        background-color: #e6d8bc; 
+        border: 3px solid rgb(96, 108, 56);
+        background-color: rgb(242, 204, 143); 
         border-radius: 10px; 
         text-align: center; 
     
 }
-
-
-.formss a{
-    text-decoration: none;
-    color: black;
-    background-color: #e6d8bc;
-    border-radius: none;
-    border: black 2px solid;
+.formss label{
+    background-color: rgb(242, 204, 143); 
+    font-weight: bold;
+    display: flex;
+    color: rgb(96, 108, 56);
+    text-align: left;
+    
 }
 
-
-.boton{
+.formss a{
+    padding: none;
+    margin: none;
     border: none;
-    background-color: #e6d8bc;
     text-decoration: none;
-    color: black;
+    color: rgb(96, 108, 56);
+    background-color: rgb(242, 204, 143);
+    border-radius: none;
+   
+    border: rgb(96, 108, 56) 1px solid;
+   
+}
+.terminos{
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    gap: 10px; 
+    margin-top: 10px; 
+}
+.boton{
+    background-color: rgb(242, 204, 143);
+    text-decoration: none;
+    color: rgb(96, 108, 56);
+    border: rgb(96, 108, 56) 2px solid;
 }
 /* ----------------------------------------------LOGIN------------------------------------------- */
 .categorias-titulo{
