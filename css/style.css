@@ -229,6 +229,9 @@ color: rgb(188, 75, 81)
     margin-top: 1vh;
     margin-bottom:1vh;
  }
+ .errorEmail p, .errorPassword p{
+    color: red;
+ }
 /* ----------------------------------------------LOGIN------------------------------------------- */
 .categorias-titulo{
     display: flex;

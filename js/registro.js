@@ -1,4 +1,4 @@
-let formulario = document.querySelector('form')
+let formulario = document.querySelector('.login-form')
 
 let email = document.querySelector('#email')
 let password = document.querySelector('#password')
@@ -10,10 +10,10 @@ formulario.addEventListener('submit', function(evento){
     evento.preventDefault()
     if(email.value == ''){
         console.log('completa el campo')
-        errorEmail.innerHTML = '<p>por favor complete el campo</p>'
+        errorEmail.innerHTML = '<p>Por favor complete el campo</p>'
     }else if(password.value == ''){
         console.log('completa el campo')
-        errorPassword.innerHTML = '<p>por favor complete el campo</p>';
+        errorPassword.innerHTML = '<p>Por favor complete el campo</p>';
     }else {
         formulario.submit()
     }
