@@ -1,10 +1,12 @@
 *{
-    background-color: rgb(248, 240, 229);
     padding: 0px;
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
     box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 240, 229);
 }
 header img{
     width: 120px;
@@ -38,8 +40,8 @@ header nav ul li{
 }
 .log-reg a{
     text-decoration: none;
-    color: rgb(96, 108, 56);
-    background-color: rgb(242, 204, 143);
+    color: rgb(188, 75, 81);
+    border: 1px solid rgb(224, 122, 95);
     margin-left: 1vh;
     margin-right: 1vh;
     padding: 10px;
@@ -62,7 +64,6 @@ footer p{
 
 .search{
     max-width: 900px;
-    height: 40px;
     padding: 20px;
     background-color: rgb(250, 249, 246); 
     border-radius: 8px;
@@ -145,97 +146,89 @@ color: rgb(188, 75, 81)
 
 
 /* ----------------------------------------------HOME------------------------------------------- */
-
-.logg{
+ .centrado-log{
     display: flex;
     justify-content: center;
-    color: rgb(96, 108, 56);
-    margin-top: 10%;
-    background-color: rgb(242, 204, 143);
-    margin-bottom: none;
-}
-.formss{
-    display: flex;
-  flex-direction: column; 
-  align-items: center;
-  background-color: rgb(242, 204, 143);
-  gap: 15px; 
-  margin-top: 20px; 
-}
-
-.cajon{
+    align-items: center;
+    
+ }
+ .login-container{
+    width: 400px;
+    padding: 20px;
+ }
+ 
+ .titulo-login{
+    color: rgb(129, 99, 60);
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ 
+ .login-form{
+    background: rgb(250, 249, 246);
+    padding: 20px;
+    border-radius: 8px;
+ }
+ 
+ .login-form div{
+    margin-bottom: 15px;
+    background-color: ;
+ }
+ 
+ .label{
+    display: block;
+    color: rgb(129, 99, 60);
+    margin-bottom: 5px;
+ }
+ 
+ .input{
     width: 100%;
     padding: 10px;
-    border: 2px solid rgb(96, 108, 56);
-    border-radius: 5px;
-    background-color: rgb(242, 204, 143);
-    color: rgb(96, 108, 56);
-    box-shadow: none;
-
-}
-.formss div {
-    margin: 0; 
-    background-color: rgb(242, 204, 143);
-    padding: 0;
+    border: 1px solid rgb(183, 196, 177);
+    border-radius: 4px;
+ }
+ 
+ .boton{
     width: 100%;
-}
-.boton:hover {
-    background-color: #d4c2a3;
-    color: black;
-}
-
-.ody{
-    
-        margin: 50px auto; 
-        padding: 20px; 
-        width: 400px;
-        border: 3px solid rgb(96, 108, 56);
-        background-color: rgb(242, 204, 143); 
-        border-radius: 10px; 
-        text-align: center; 
-    
-}
-.formss label{
-    background-color: rgb(242, 204, 143); 
-    font-weight: bold;
-    display: flex;
-    color: rgb(96, 108, 56);
-    text-align: left;
-    
-}
-
-.formss a{
-    padding: none;
-    margin: none;
+    padding: 10px;
+    background: rgb(224, 122, 95);
+    color: white;
     border: none;
+    font-size: ;
+    border-radius: 4px;
+    margin-bottom: 1vh;
+ }
+ 
+ .registrarse{
+    border: 1.5px solid rgb(96, 108, 56);
+    border-radius: 4px;
+    color: rgb(129, 99, 60);
+    padding: 5px;
+    width: 100%;
     text-decoration: none;
-    color: rgb(96, 108, 56);
-    background-color: rgb(242, 204, 143);
-    border-radius: none;
-   
-    border: rgb(96, 108, 56) 1px solid;
-   
-}
-.terminos{
-    display: flex;
-    align-items: center; 
-    flex-direction: row;
-    gap: 10px; 
-    margin-top: 10px; 
-}
-.boton{
-    background-color: rgb(242, 204, 143);
+    display: block;
+    text-align: center;
+ }
+ .ya-tengo{
+    border: 1.5px solid rgb(96, 108, 56);
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
     text-decoration: none;
-    color: rgb(96, 108, 56);
-    border: rgb(96, 108, 56) 2px solid;
-}
+    text-align: center;
 
-.errorEmail{
-    background-color:rgb(242, 204, 143) ;
-}
-.errorPassword{
-    background-color: rgb(242, 204, 143);
-}
+ }
+ .ya-tengo a{
+    text-decoration: none;
+    color: rgb(129, 99, 60);
+ }
+ .terminos{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom:1vh;
+ }
 /* ----------------------------------------------LOGIN------------------------------------------- */
 .categorias-titulo{
     display: flex;

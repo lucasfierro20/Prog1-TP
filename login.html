@@ -10,28 +10,40 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body >
-    <div class="ody">
-    <h1 class="logg">Login</h1>
-    
-    <form class="formss" action="index.html" method="get">          
-            <div >
-                <label for="">Email</label><br>
-                <input class="cajon" type="email" value="" name="email" id="email">
+    <header><nav>
+        <img src="./css/img/logo-tp-progra.webp" alt="">
+            <ul>
+                <li><form action="results.html" method="GET" class="search">
+                    <input type="text" name="q" placeholder="Escriba aqui..." class="search-input">
+                    <button type="submit" class="search-button">SEARCH</button>
+                </form></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./categorias.html">Categorias</a></li>
+            </ul>           
+        </nav></header>
+    <main> 
+    <section class="centrado-log">  
+    <div class="login-container">
+        <h1 class="titulo-login">Login</h1>
+        <form class="login-form">
+            <div>
+                <label class="label">Email</label>
+                <input class="input" id="email" type="email">
             </div>
-            <div >
-                <label for="" >Contraseña</label><br>
-                <input class="cajon" type="password" value="" name="password" id="password">
+            <div>
+                <label class="label">Contraseña</label>
+                <input class="input" id="password" type="password">
             </div>
-            <div >
-                <label for="" >no tengo cuenta</label><br>
-                <button class="boton"  type="submit"><a href="./registro.html">Registrate</a></button>
-            </div>
-            <div class="enviar">
-                <button class="boton" type="submit" >Ingresar</button>
-            </div>
-    </form>
-    
-</div>
+            <button class="boton" type="submit">Ingresar</button>
+            <label for="" class="label">No tengo cuenta</label>
+            <a class="registrarse" href="./registro.html">Registrarse</a>
+        </form>
+    </div>
+    </section>
+    </main>
+    <footer><p>© 2024 Recetas Caseras. Valentino Spinelli//Lucas Fierro//Felipe Barreiro</p></footer>
+
+    </div>
     <script src="./js/login.js"></script>
 </body>
 </html>

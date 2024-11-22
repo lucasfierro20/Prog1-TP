@@ -10,31 +10,45 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body class="ody">
-    <h1 class="logg">Registro</h1>
-    <form class="formss" action="login.html" method="get">
-        <div >
-            <label for="">Email</label><br>
-            <input class="cajon" type="email" id="email">
-            <div class="errorEmail"></div>
-        </div>
-        <div >
-            <label for="">Contrasena</label><br>
-            <input class="cajon" type="password" id="password">
-            <div class="errorPassword"></div>
-        </div>
-        <div class="terminos">
-            <label  for="">Acepto terminos y condiciones</label>
-            <input type="checkbox" checked><br>
-        </div>
-        <div >
-            <label for=""></label>
-            <button type="submit"><a href="./login.html">Ya tengo cuenta</a></button>
-        </div>
-        <div class="enviar">
-            <button type="submit">Ingresar</button>
-        </div>
-  
-    </form>
+    <header><nav>
+        <img src="./css/img/logo-tp-progra.webp" alt="">
+            <ul>
+                <li><form action="results.html" method="GET" class="search">
+                    <input type="text" name="q" placeholder="Escriba aqui..." class="search-input">
+                    <button type="submit" class="search-button">SEARCH</button>
+                </form></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./categorias.html">Categorias</a></li>
+            </ul>           
+        </nav></header>
+    
+    <section class="centrado-log">
+    <div class="login-container">
+        <h1 class="titulo-login">Registro</h1>
+        <form class="login-form" action="login.html" method="get">
+             <div>
+                <label class="label" for="email">Email</label>
+                <input class="input" id="email" type="email" value="">
+                <div class="errorEmail"></div>
+            </div>
+     
+            <div>
+                <label class="label" for="password">Contraseña</label>
+                <input class="input" id="password" type="password" value="">
+                <div class="errorPassword"></div>
+            </div>  
+     
+            <div class="terminos">
+                <input class="" type="checkbox" id="terms" required checked>
+                <label class="label" for="">Acepto términos y condiciones</label>
+            </div>
+     
+            <button class="boton" type="submit">Ingresar</button>
+            <button class="ya-tengo"><a href="./login.html">Ya tengo cuenta</a></button>
+        </form>
+    </div>
+    </section>
+    <footer><p>© 2024 Recetas Caseras. Valentino Spinelli//Lucas Fierro//Felipe Barreiro</p></footer>
     <script src="./js/registro.js"></script>
 </body>
 </html>
