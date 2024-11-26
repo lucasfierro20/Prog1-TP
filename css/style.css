@@ -363,4 +363,23 @@ color: rgb(188, 75, 81)
         margin: 0;
     }
 
+    .log-reg a {
+        font-size: medium;
+        padding: 8px;
+    }
+
+    .search {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .search-button {
+        width: 100%;
+    }
+
+    
 }
