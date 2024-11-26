@@ -44,6 +44,10 @@ header nav ul li{
     
 }
 
+.logosi{
+    display: block;
+}
+
 .log-reg a{
     text-decoration: none;
     color: rgb(188, 75, 81);
