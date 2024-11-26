@@ -381,5 +381,54 @@ color: rgb(188, 75, 81)
         width: 100%;
     }
 
-    
+    .lista-recetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lista-recetas article img {
+        width: 100%;
+    }
+
+    .container-cm .cargar-mas {
+        width: 100%;
+        padding: 12px;
+    }
+
+    footer p {
+        font-size: small;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .categorias article a p {
+        width: 90%;
+        font-size: medium;
+        padding: 10px;
+    }
+
+    .contenedor-derece img {
+        width: 100%;
+    }
+
+    .contenedor-ii {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contenedor-ii h2, .contenedor-ii p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .login-container {
+        width: 100%;
+    }
+
+    .boton, .registrarse, .ya-tengo {
+        font-size: medium;
+        padding: 10px;
+    }
 }
