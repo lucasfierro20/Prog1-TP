@@ -38,6 +38,12 @@ header nav ul li{
     margin-left: 10vh;
     margin-right: 10vh;
 }
+
+.nonde{
+    display: none;
+    
+}
+
 .log-reg a{
     text-decoration: none;
     color: rgb(188, 75, 81);
