@@ -179,7 +179,6 @@ color: rgb(188, 75, 81)
  
  .login-form div{
     margin-bottom: 15px;
-    background-color: ;
  }
  
  .label{
@@ -201,7 +200,6 @@ color: rgb(188, 75, 81)
     background: rgb(224, 122, 95);
     color: white;
     border: none;
-    font-size: ;
     border-radius: 4px;
     margin-bottom: 1vh;
  }
@@ -266,7 +264,6 @@ color: rgb(188, 75, 81)
 }
 .categorias article a p{
     font-size:large ;
-    font-weight: ;
     width: 30vw;
     background-color: rgb(250, 249, 246);
     padding: 8px 12px 8px 12px;
