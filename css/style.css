@@ -274,6 +274,10 @@ color: rgb(188, 75, 81)
     text-align: center;
     border: 2px solid  rgb(183, 196, 177);
 }
+.categorias article a p:hover{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgb(188, 75, 81);
+}
 /* -----------------------------------------------CATEGORIAS--------------------------------------- */
 .titulodetalle{
     color: rgb(96, 108, 56);
