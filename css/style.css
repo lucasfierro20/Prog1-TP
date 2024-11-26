@@ -106,6 +106,7 @@ footer p{
 }
 .lista-recetas article img{
     width: 230px;    
+    border-radius: 10px;
 }
 .lista-recetas article{
     display: flex;
@@ -116,7 +117,14 @@ footer p{
     margin-bottom: 20px;
     padding: 20px;
     background-color: rgb(244, 241, 222);
+
 }
+.lista-recetas article:hover{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    border: 6px solid rgb(188, 75, 81);
+}
+
+
 .lista-recetas article a{
     margin-bottom: 10px;
     text-decoration: none;
@@ -257,15 +265,20 @@ color: rgb(188, 75, 81)
     
 }
 .categorias article a p{
+    font-size:large ;
+    font-weight: ;
+    width: 30vw;
     background-color: rgb(250, 249, 246);
-    padding: 10px 15px 10px 15px;
-    border-radius: 10px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 15px;
+    text-align: center;
     border: 2px solid  rgb(183, 196, 177);
 }
 /* -----------------------------------------------CATEGORIAS--------------------------------------- */
 .titulodetalle{
     color: rgb(96, 108, 56);
 }
+
 /* -----------------------------------------------DETALLE-------------------------------------- */
 .contenedor-derece{
     display: flex;
