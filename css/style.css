@@ -356,6 +356,16 @@ color: rgb(188, 75, 81)
         margin-bottom: 10px;
     }
 
+    .nonde{
+        display: none;
+        
+    }
+    
+    .logosi{
+        display: block;
+    }
+    
+
     header nav ul {
         display: flex;
         flex-direction: column;
