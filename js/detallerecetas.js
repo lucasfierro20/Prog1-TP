@@ -8,6 +8,8 @@ fetch(`https://dummyjson.com/recipes/${identificador}`)
     return response.json();
 })
 .then (function(data){
+    let tituloPag = document.querySelector('title')
+    tituloPag.innerText = data.name
     let nombre = document.querySelector('h1')
     nombre.innerText = data.name;
     let details = document.querySelector('.details')

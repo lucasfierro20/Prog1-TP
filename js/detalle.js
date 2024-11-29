@@ -11,6 +11,9 @@ fetch('https://dummyjson.com/recipes')
     let titulo = document.querySelector('.titulodetalle');
     titulo.innerHTML=`${tagss}`
     let recetas = []
+    let tituloPag = document.querySelector('title')
+    tituloPag.innerText = `${tagss}`
+
     
     for (let i = 0; i < data.recipes.length; i++){
         if (data.recipes[i].tags.includes(tagss)) {
